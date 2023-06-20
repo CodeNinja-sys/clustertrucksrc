@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1327433819539228}
+  m_IsPrefabParent: 1
+--- !u!1 &1327433819539228
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4106821248775627}
+  - component: {fileID: 33641473250665740}
+  - component: {fileID: 23624768516894118}
+  - component: {fileID: 64945770344094513}
+  - component: {fileID: 114570500872701052}
+  m_Layer: 0
+  m_Name: desertRock1
+  m_TagString: kill
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4106821248775627
+Transform:
+  m_GameObject: {fileID: 1327433819539228}
+  m_LocalRotation: {x: 0.6198186, y: 0.2404944, z: 0.5606266, w: -0.4936449}
+  m_LocalPosition: {x: -70.83488, y: 62.53, z: -346.4459}
+  m_LocalScale: {x: 2.54616, y: 2.546163, z: 2.546162}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -71.28233, y: 68.81384, z: 44.96128}
+--- !u!33 &33641473250665740
+MeshFilter:
+  m_GameObject: {fileID: 1327433819539228}
+  m_Mesh: {fileID: 4300000, guid: f6f98d4a64fc2be41b46556a31aca66f, type: 2}
+--- !u!23 &23624768516894118
+MeshRenderer:
+  m_GameObject: {fileID: 1327433819539228}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 8844ffca95285d94aaf6241f95b341f7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &64945770344094513
+MeshCollider:
+  m_GameObject: {fileID: 1327433819539228}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: f6f98d4a64fc2be41b46556a31aca66f, type: 2}
+--- !u!114 &114570500872701052
+MonoBehaviour:
+  m_GameObject: {fileID: 1327433819539228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4834921f7285854c8f70df6aca43614, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  path: props
+  info: []
+  info2: []
+  vectors: []
+  transforms: []

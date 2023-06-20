@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1184367785377726}
+  m_IsPrefabParent: 1
+--- !u!1 &1184367785377726
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4935641462016926}
+  - component: {fileID: 33659837831620606}
+  - component: {fileID: 23409636222516831}
+  - component: {fileID: 114569467204633860}
+  m_Layer: 0
+  m_Name: templeUp2
+  m_TagString: kill
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4935641462016926
+Transform:
+  m_GameObject: {fileID: 1184367785377726}
+  m_LocalRotation: {x: 0.7071066, y: -1.654361E-23, z: -2.646978E-23, w: -0.7071069}
+  m_LocalPosition: {x: -323.4478, y: -0.3, z: -46.8}
+  m_LocalScale: {x: 4.20062, y: 4.200621, z: 4.200621}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -89.99998, y: -3.485309E-21, z: -8.043027E-22}
+--- !u!33 &33659837831620606
+MeshFilter:
+  m_GameObject: {fileID: 1184367785377726}
+  m_Mesh: {fileID: 4300000, guid: f677099d95886604f97f2a2c527c5117, type: 2}
+--- !u!23 &23409636222516831
+MeshRenderer:
+  m_GameObject: {fileID: 1184367785377726}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 6243bae514ffae141a23bf69b2c64e34, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114569467204633860
+MonoBehaviour:
+  m_GameObject: {fileID: 1184367785377726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4834921f7285854c8f70df6aca43614, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  path: props
+  info: []
+  info2: []
+  vectors: []
+  transforms: []

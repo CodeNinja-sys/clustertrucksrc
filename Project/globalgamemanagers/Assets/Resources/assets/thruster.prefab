@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1384137252804508}
+  m_IsPrefabParent: 1
+--- !u!1 &1384137252804508
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4550436721393268}
+  - component: {fileID: 33038259013383328}
+  - component: {fileID: 114447789657617506}
+  m_Layer: 0
+  m_Name: thruster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4550436721393268
+Transform:
+  m_GameObject: {fileID: 1384137252804508}
+  m_LocalRotation: {x: 0.4999996, y: -0.5000005, z: -0.5000005, w: 0.4999995}
+  m_LocalPosition: {x: 0.02, y: 19.1, z: -53.9}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_Children:
+  - {fileID: 4222175799132128}
+  - {fileID: 4483069828403048}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90.00001, y: -8.537744E-06, z: 90.0001}
+--- !u!33 &33038259013383328
+MeshFilter:
+  m_GameObject: {fileID: 1384137252804508}
+  m_Mesh: {fileID: 4300000, guid: ed93a311e6d898341a18a0a8aa2d1648, type: 2}
+--- !u!114 &114447789657617506
+MonoBehaviour:
+  m_GameObject: {fileID: 1384137252804508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4834921f7285854c8f70df6aca43614, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  path: props
+  info:
+  - 30
+  - 1
+  info2: []
+  vectors: []
+  transforms: []
+--- !u!1 &1058011229813534
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4222175799132128}
+  - component: {fileID: 33084168021065789}
+  - component: {fileID: 23488021213292613}
+  - component: {fileID: 64651610140252351}
+  m_Layer: 0
+  m_Name: thruster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4222175799132128
+Transform:
+  m_GameObject: {fileID: 1058011229813534}
+  m_LocalRotation: {x: -4.172325E-07, y: 0.7071062, z: 1.728037E-07, w: -0.7071074}
+  m_LocalPosition: {x: 5.96, y: 0, z: 0}
+  m_LocalScale: {x: 3.059226, y: 3.059227, z: 3.059227}
+  m_Children: []
+  m_Father: {fileID: 4550436721393268}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 25.87846, y: 89.99989, z: 25.87844}
+--- !u!33 &33084168021065789
+MeshFilter:
+  m_GameObject: {fileID: 1058011229813534}
+  m_Mesh: {fileID: 4300000, guid: ea29275482b182d4c8f38778546fed48, type: 2}
+--- !u!23 &23488021213292613
+MeshRenderer:
+  m_GameObject: {fileID: 1058011229813534}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: cb3693e24e5ec894d9618593470ae1a3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &64651610140252351
+MeshCollider:
+  m_GameObject: {fileID: 1058011229813534}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: ea29275482b182d4c8f38778546fed48, type: 2}
+--- !u!1 &1149659247593427
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4483069828403048}
+  - component: {fileID: 33285565878838662}
+  - component: {fileID: 65413138605012575}
+  - component: {fileID: 23436776069519601}
+  - component: {fileID: 114055447948539153}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4483069828403048
+Transform:
+  m_GameObject: {fileID: 1149659247593427}
+  m_LocalRotation: {x: 9.570538E-09, y: -0.7071066, z: 1.60529E-08, w: 0.707107}
+  m_LocalPosition: {x: -30.12, y: 0, z: -0.1}
+  m_LocalScale: {x: 4, y: 4, z: 59.99161}
+  m_Children: []
+  m_Father: {fileID: 4550436721393268}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 2.076227E-06, y: 89.99997, z: 0}
+--- !u!33 &33285565878838662
+MeshFilter:
+  m_GameObject: {fileID: 1149659247593427}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65413138605012575
+BoxCollider:
+  m_GameObject: {fileID: 1149659247593427}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 1.5, z: 0.5055415}
+  m_Center: {x: -1.899361E-07, y: -2.680126E-07, z: -0.2472361}
+--- !u!23 &23436776069519601
+MeshRenderer:
+  m_GameObject: {fileID: 1149659247593427}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114055447948539153
+MonoBehaviour:
+  m_GameObject: {fileID: 1149659247593427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0061293bf1c9a749963206f748d71a6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  targetTag: 0
+  toPoint: {fileID: 0}
+  once: 0
+  forwardForce: 5000

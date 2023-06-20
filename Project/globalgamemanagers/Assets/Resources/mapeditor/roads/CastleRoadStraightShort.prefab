@@ -1,0 +1,846 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1898602535337451}
+  m_IsPrefabParent: 1
+--- !u!1 &1898602535337451
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4714072085746160}
+  - component: {fileID: 33971151545927269}
+  - component: {fileID: 65926055713502517}
+  - component: {fileID: 23797416864677131}
+  - component: {fileID: 114428710856442518}
+  - component: {fileID: 114950880902354569}
+  - component: {fileID: 114759865343573707}
+  m_Layer: 0
+  m_Name: CastleRoadStraightShort
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4714072085746160
+Transform:
+  m_GameObject: {fileID: 1898602535337451}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 134.9547, y: 0, z: -205.0958}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4085142431361153}
+  - {fileID: 4516737635638611}
+  - {fileID: 4102561294483327}
+  - {fileID: 4152352358504182}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33971151545927269
+MeshFilter:
+  m_GameObject: {fileID: 1898602535337451}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65926055713502517
+BoxCollider:
+  m_GameObject: {fileID: 1898602535337451}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 23.33, y: 14.64, z: 71.42}
+  m_Center: {x: 0, y: 7.7, z: 0}
+--- !u!23 &23797416864677131
+MeshRenderer:
+  m_GameObject: {fileID: 1898602535337451}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114428710856442518
+MonoBehaviour:
+  m_GameObject: {fileID: 1898602535337451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcaddd61fc31979489cc6b7fa716df38, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114950880902354569
+MonoBehaviour:
+  m_GameObject: {fileID: 1898602535337451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c37c46c8be01140a179a658b1ed5b7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  roadPoint: 0
+  LEGEND: 73203d20737472696e672c2066203d20666c6f61742c2062203d20626f6f6c0a536c696465723a202873206e616d652c66206d696e2c66206d61782c200a662076616c75652c6220636c616d702920426f6f6c3a202873206e616d652c206220737461727456616c7565292044726f703a202873206e616d652c20735b5d2076616c7565732c692076616c756529
+  initParameters:
+  - TYPE: 1
+    Arguments:
+    - Killable
+    - True
+--- !u!114 &114759865343573707
+MonoBehaviour:
+  m_GameObject: {fileID: 1898602535337451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8b8e7366e81e7245a507792ecb07894, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1940304158062538
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4085142431361153}
+  - component: {fileID: 23477936759907464}
+  - component: {fileID: 114311397303767039}
+  - component: {fileID: 33444453193757687}
+  m_Layer: 2
+  m_Name: Solid-CastleRoadStraightShort
+  m_TagString: kill
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4085142431361153
+Transform:
+  m_GameObject: {fileID: 1940304158062538}
+  m_LocalRotation: {x: 0.7071068, y: 1.788139E-07, z: 1.80166E-07, w: -0.7071069}
+  m_LocalPosition: {x: 0, y: 13.6, z: 18.1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_Children:
+  - {fileID: 4566348695708230}
+  - {fileID: 4347451398806127}
+  m_Father: {fileID: 4714072085746160}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 2.908759E-05, z: 1.095558E-07}
+--- !u!23 &23477936759907464
+MeshRenderer:
+  m_GameObject: {fileID: 1940304158062538}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 18794128aed057546b208f8847e30864, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114311397303767039
+MonoBehaviour:
+  m_GameObject: {fileID: 1940304158062538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4488a4c3112b2574fa785c28702e07b8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!33 &33444453193757687
+MeshFilter:
+  m_GameObject: {fileID: 1940304158062538}
+  m_Mesh: {fileID: 4300000, guid: f2f390191567d4040b5a0814f9278eea, type: 2}
+--- !u!1 &1348286123071547
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4566348695708230}
+  m_Layer: 2
+  m_Name: Colliders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4566348695708230
+Transform:
+  m_GameObject: {fileID: 1348286123071547}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4115808941334718}
+  - {fileID: 4507625083938700}
+  - {fileID: 4652288323001867}
+  m_Father: {fileID: 4085142431361153}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1368930649385784
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4115808941334718}
+  - component: {fileID: 33673422152683557}
+  - component: {fileID: 65985108755701386}
+  - component: {fileID: 23812028423605818}
+  m_Layer: 2
+  m_Name: collider (2)
+  m_TagString: kill
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4115808941334718
+Transform:
+  m_GameObject: {fileID: 1368930649385784}
+  m_LocalRotation: {x: -5.89286E-08, y: -2.086162E-07, z: -0.7071064, w: 0.7071073}
+  m_LocalPosition: {x: 0.8, y: 26.87, z: -0.7}
+  m_LocalScale: {x: 100.3918, y: 27.68921, z: 1.523675}
+  m_Children: []
+  m_Father: {fileID: 4566348695708230}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 1.212894E-05, y: 2.167875E-05, z: 89.99992}
+--- !u!33 &33673422152683557
+MeshFilter:
+  m_GameObject: {fileID: 1368930649385784}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65985108755701386
+BoxCollider:
+  m_GameObject: {fileID: 1368930649385784}
+  m_Material: {fileID: 13400000, guid: de295ad6c349dad44b86867fb7abed4c, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &23812028423605818
+MeshRenderer:
+  m_GameObject: {fileID: 1368930649385784}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1558830596437618
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4507625083938700}
+  - component: {fileID: 33599498726054333}
+  - component: {fileID: 65946264977485814}
+  - component: {fileID: 23044899511227891}
+  m_Layer: 2
+  m_Name: collider (1)
+  m_TagString: kill
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4507625083938700
+Transform:
+  m_GameObject: {fileID: 1558830596437618}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.9, y: 26.96, z: 0.3}
+  m_LocalScale: {x: 2.551355, y: 100.4017, z: 1.523673}
+  m_Children: []
+  m_Father: {fileID: 4566348695708230}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33599498726054333
+MeshFilter:
+  m_GameObject: {fileID: 1558830596437618}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65946264977485814
+BoxCollider:
+  m_GameObject: {fileID: 1558830596437618}
+  m_Material: {fileID: 13400000, guid: de295ad6c349dad44b86867fb7abed4c, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &23044899511227891
+MeshRenderer:
+  m_GameObject: {fileID: 1558830596437618}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1041540795178402
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4652288323001867}
+  - component: {fileID: 33349743923498779}
+  - component: {fileID: 65727440751996464}
+  - component: {fileID: 23474240079011732}
+  m_Layer: 2
+  m_Name: collider (2)
+  m_TagString: kill
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4652288323001867
+Transform:
+  m_GameObject: {fileID: 1041540795178402}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.98, y: 27, z: 0.3}
+  m_LocalScale: {x: 2.551355, y: 100.4017, z: 1.523673}
+  m_Children: []
+  m_Father: {fileID: 4566348695708230}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33349743923498779
+MeshFilter:
+  m_GameObject: {fileID: 1041540795178402}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65727440751996464
+BoxCollider:
+  m_GameObject: {fileID: 1041540795178402}
+  m_Material: {fileID: 13400000, guid: de295ad6c349dad44b86867fb7abed4c, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &23474240079011732
+MeshRenderer:
+  m_GameObject: {fileID: 1041540795178402}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1632163028287370
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4347451398806127}
+  m_Layer: 2
+  m_Name: RoadHandles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4347451398806127
+Transform:
+  m_GameObject: {fileID: 1632163028287370}
+  m_LocalRotation: {x: -0.7071068, y: -1.788139E-07, z: -1.80166E-07, w: -0.7071069}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.428571, y: 1.428571, z: 1.428571}
+  m_Children:
+  - {fileID: 4325257591867589}
+  - {fileID: 4889553011380364}
+  m_Father: {fileID: 4085142431361153}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 89.99999, y: 1.095509E-07, z: -2.908759E-05}
+--- !u!1 &1130773445957040
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4325257591867589}
+  - component: {fileID: 33345155152142739}
+  - component: {fileID: 135436023488508998}
+  - component: {fileID: 23538970476163805}
+  - component: {fileID: 114901459995234212}
+  m_Layer: 2
+  m_Name: 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4325257591867589
+Transform:
+  m_GameObject: {fileID: 1130773445957040}
+  m_LocalRotation: {x: 0.7071068, y: 1.788139E-07, z: 1.80166E-07, w: -0.7071069}
+  m_LocalPosition: {x: -0.02, y: 0.2, z: 16.34}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_Children: []
+  m_Father: {fileID: 4347451398806127}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 2.908759E-05, z: 1.095558E-07}
+--- !u!33 &33345155152142739
+MeshFilter:
+  m_GameObject: {fileID: 1130773445957040}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!135 &135436023488508998
+SphereCollider:
+  m_GameObject: {fileID: 1130773445957040}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &23538970476163805
+MeshRenderer:
+  m_GameObject: {fileID: 1130773445957040}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 8f801cc4b5aa0ea42b58a3dab508a1f3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114901459995234212
+MonoBehaviour:
+  m_GameObject: {fileID: 1130773445957040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbe3fe142b6f6cf478674ff1094cb64d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  otherRoadhandles: []
+  _PermanentConnection: 0
+  connection: {fileID: 0}
+  test: 1
+--- !u!1 &1866157819094414
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4889553011380364}
+  - component: {fileID: 33448699824255543}
+  - component: {fileID: 135666907091074488}
+  - component: {fileID: 23297993930690778}
+  - component: {fileID: 114794954159052869}
+  m_Layer: 2
+  m_Name: 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4889553011380364
+Transform:
+  m_GameObject: {fileID: 1866157819094414}
+  m_LocalRotation: {x: 0.7071068, y: 1.788139E-07, z: 1.80166E-07, w: -0.7071069}
+  m_LocalPosition: {x: 0, y: 0.28, z: -53.96}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_Children: []
+  m_Father: {fileID: 4347451398806127}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 2.908759E-05, z: 1.095558E-07}
+--- !u!33 &33448699824255543
+MeshFilter:
+  m_GameObject: {fileID: 1866157819094414}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!135 &135666907091074488
+SphereCollider:
+  m_GameObject: {fileID: 1866157819094414}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &23297993930690778
+MeshRenderer:
+  m_GameObject: {fileID: 1866157819094414}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 8f801cc4b5aa0ea42b58a3dab508a1f3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114794954159052869
+MonoBehaviour:
+  m_GameObject: {fileID: 1866157819094414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbe3fe142b6f6cf478674ff1094cb64d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  otherRoadhandles: []
+  _PermanentConnection: 0
+  connection: {fileID: 0}
+  test: 1
+--- !u!1 &1172481393332417
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4516737635638611}
+  - component: {fileID: 33726765471408374}
+  - component: {fileID: 65275245212586190}
+  - component: {fileID: 23832337905517843}
+  - component: {fileID: 114018293823139232}
+  m_Layer: 0
+  m_Name: roadPoint (3)
+  m_TagString: roadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4516737635638611
+Transform:
+  m_GameObject: {fileID: 1172481393332417}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.4083862, y: 16.8, z: -32.38266}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4714072085746160}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33726765471408374
+MeshFilter:
+  m_GameObject: {fileID: 1172481393332417}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65275245212586190
+BoxCollider:
+  m_GameObject: {fileID: 1172481393332417}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &23832337905517843
+MeshRenderer:
+  m_GameObject: {fileID: 1172481393332417}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 80040af4d96d115468945f630998c272, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114018293823139232
+MonoBehaviour:
+  m_GameObject: {fileID: 1172481393332417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca92687b082e797429e3b88ca5512442, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_type: -1
+--- !u!1 &1477563107020781
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4102561294483327}
+  - component: {fileID: 33706071739664658}
+  - component: {fileID: 65980326652282209}
+  - component: {fileID: 23857353123430098}
+  - component: {fileID: 114296693437530874}
+  m_Layer: 0
+  m_Name: roadPoint (4)
+  m_TagString: roadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4102561294483327
+Transform:
+  m_GameObject: {fileID: 1477563107020781}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.4083862, y: 16.8, z: -4.182678}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4714072085746160}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33706071739664658
+MeshFilter:
+  m_GameObject: {fileID: 1477563107020781}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65980326652282209
+BoxCollider:
+  m_GameObject: {fileID: 1477563107020781}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &23857353123430098
+MeshRenderer:
+  m_GameObject: {fileID: 1477563107020781}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 80040af4d96d115468945f630998c272, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114296693437530874
+MonoBehaviour:
+  m_GameObject: {fileID: 1477563107020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca92687b082e797429e3b88ca5512442, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_type: -1
+--- !u!1 &1657190232744979
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4152352358504182}
+  - component: {fileID: 33109158715219813}
+  - component: {fileID: 65199694198813752}
+  - component: {fileID: 23954906142859713}
+  - component: {fileID: 114888481664439497}
+  m_Layer: 0
+  m_Name: roadPoint (5)
+  m_TagString: roadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4152352358504182
+Transform:
+  m_GameObject: {fileID: 1657190232744979}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.4083862, y: 16.8, z: 18.91733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4714072085746160}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33109158715219813
+MeshFilter:
+  m_GameObject: {fileID: 1657190232744979}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65199694198813752
+BoxCollider:
+  m_GameObject: {fileID: 1657190232744979}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &23954906142859713
+MeshRenderer:
+  m_GameObject: {fileID: 1657190232744979}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 80040af4d96d115468945f630998c272, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114888481664439497
+MonoBehaviour:
+  m_GameObject: {fileID: 1657190232744979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca92687b082e797429e3b88ca5512442, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_type: -1

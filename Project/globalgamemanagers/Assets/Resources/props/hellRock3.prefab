@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1925533644961034}
+  m_IsPrefabParent: 1
+--- !u!1 &1925533644961034
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4771736693349651}
+  - component: {fileID: 33896144198567163}
+  - component: {fileID: 23530325254430074}
+  - component: {fileID: 64380374449350221}
+  m_Layer: 8
+  m_Name: hellRock3
+  m_TagString: kill
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4771736693349651
+Transform:
+  m_GameObject: {fileID: 1925533644961034}
+  m_LocalRotation: {x: 0.7071068, y: -2.304046E-07, z: -2.304047E-07, w: -0.7071067}
+  m_LocalPosition: {x: 153.0418, y: 65.96088, z: 106.162}
+  m_LocalScale: {x: 319.4378, y: 319.4378, z: 319.4378}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90.00001, y: -3.733867E-05, z: 8.44447E-13}
+--- !u!33 &33896144198567163
+MeshFilter:
+  m_GameObject: {fileID: 1925533644961034}
+  m_Mesh: {fileID: 4300000, guid: b8ed84789dc6c2741a4aa068cc2c34eb, type: 2}
+--- !u!23 &23530325254430074
+MeshRenderer:
+  m_GameObject: {fileID: 1925533644961034}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 371c55ab4d2b70b468aebc0f531191c0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &64380374449350221
+MeshCollider:
+  m_GameObject: {fileID: 1925533644961034}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: b8ed84789dc6c2741a4aa068cc2c34eb, type: 2}

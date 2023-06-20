@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1857882019294385}
+  m_IsPrefabParent: 1
+--- !u!1 &1857882019294385
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4773906715378396}
+  - component: {fileID: 33439662822946795}
+  - component: {fileID: 23129878445821089}
+  - component: {fileID: 114647547364027366}
+  m_Layer: 0
+  m_Name: Log
+  m_TagString: kill
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4773906715378396
+Transform:
+  m_GameObject: {fileID: 1857882019294385}
+  m_LocalRotation: {x: -2.669251E-08, y: 0.7071076, z: 2.669257E-08, w: 0.707106}
+  m_LocalPosition: {x: -0.1, y: 222.14, z: -81.79}
+  m_LocalScale: {x: 2.525316, y: 2.525316, z: 3.626858}
+  m_Children:
+  - {fileID: 4915405309981908}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 180, y: -89.99987, z: 180}
+--- !u!33 &33439662822946795
+MeshFilter:
+  m_GameObject: {fileID: 1857882019294385}
+  m_Mesh: {fileID: 4300000, guid: ba9f2361a24d9164ba7d91afa9e1ff5d, type: 2}
+--- !u!23 &23129878445821089
+MeshRenderer:
+  m_GameObject: {fileID: 1857882019294385}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: e2423077a51d8df4f8e416e93a8b5930, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114647547364027366
+MonoBehaviour:
+  m_GameObject: {fileID: 1857882019294385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4834921f7285854c8f70df6aca43614, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  path: props
+  info: []
+  info2: []
+  vectors: []
+  transforms: []
+--- !u!1 &1857715071600015
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4915405309981908}
+  - component: {fileID: 33288277401975278}
+  - component: {fileID: 23228721485857189}
+  m_Layer: 0
+  m_Name: Cylinder.001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4915405309981908
+Transform:
+  m_GameObject: {fileID: 1857715071600015}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4773906715378396}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33288277401975278
+MeshFilter:
+  m_GameObject: {fileID: 1857715071600015}
+  m_Mesh: {fileID: 4300000, guid: 87d32188e24e2104f8e7011612a83b28, type: 2}
+--- !u!23 &23228721485857189
+MeshRenderer:
+  m_GameObject: {fileID: 1857715071600015}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: dda34fbf6a5e10d43aaf2d20e105784a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

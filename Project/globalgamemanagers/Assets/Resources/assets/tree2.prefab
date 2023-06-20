@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1722894089611082}
+  m_IsPrefabParent: 1
+--- !u!1 &1722894089611082
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4705069288716901}
+  - component: {fileID: 33212145430717680}
+  - component: {fileID: 23906977203197495}
+  - component: {fileID: 114694817803341302}
+  m_Layer: 0
+  m_Name: tree2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4705069288716901
+Transform:
+  m_GameObject: {fileID: 1722894089611082}
+  m_LocalRotation: {x: 0.5042598, y: -0.4957037, z: -0.4957041, w: -0.5042593}
+  m_LocalPosition: {x: -20.29, y: -2.5, z: -26.72}
+  m_LocalScale: {x: 0.3236604, y: 0.3236603, z: 0.3236603}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90.00005, y: -89.01958, z: 0.0001739672}
+--- !u!33 &33212145430717680
+MeshFilter:
+  m_GameObject: {fileID: 1722894089611082}
+  m_Mesh: {fileID: 4300000, guid: c881012cedf2c2b4fa71c5a9a068c950, type: 2}
+--- !u!23 &23906977203197495
+MeshRenderer:
+  m_GameObject: {fileID: 1722894089611082}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: fe605cb9e2fc41f43b660ab43a27af04, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114694817803341302
+MonoBehaviour:
+  m_GameObject: {fileID: 1722894089611082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4834921f7285854c8f70df6aca43614, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  path: props
+  info: []
+  info2: []
+  vectors: []
+  transforms: []

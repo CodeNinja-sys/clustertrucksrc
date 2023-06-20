@@ -1,0 +1,3 @@
+public class ShapeModifierReciever : ModifierRecieverBase
+{
+}

@@ -1,0 +1,306 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1085401478529291}
+  m_IsPrefabParent: 1
+--- !u!1 &1085401478529291
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4165040391193843}
+  - component: {fileID: 114381151923522423}
+  - component: {fileID: 95429320715937138}
+  - component: {fileID: 82940943455462268}
+  - component: {fileID: 114995632279366666}
+  m_Layer: 0
+  m_Name: extractor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4165040391193843
+Transform:
+  m_GameObject: {fileID: 1085401478529291}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.768549, y: 0.2243652, z: -87.65967}
+  m_LocalScale: {x: 6.323955, y: 6.323954, z: 6.323954}
+  m_Children:
+  - {fileID: 4671110900805990}
+  - {fileID: 4312051792384121}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114381151923522423
+MonoBehaviour:
+  m_GameObject: {fileID: 1085401478529291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7694c30db6af12947a48ff87640a1f44, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  strength: 0.5
+  usePos: 1
+--- !u!95 &95429320715937138
+Animator:
+  serializedVersion: 3
+  m_GameObject: {fileID: 1085401478529291}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 467853b14e9d75f4a96646459aa9fad5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage:
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!82 &82940943455462268
+AudioSource:
+  m_GameObject: {fileID: 1085401478529291}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 64f40c5cc2a4c334da9be6a680dd4ad2, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.2
+  m_Pitch: 0.5
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 15
+  MaxDistance: 300
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0.15
+      value: 1
+      inSlope: -6.669343
+      outSlope: -6.669343
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.3
+      value: 0.3963351
+      inSlope: -1.667336
+      outSlope: -1.667336
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.6
+      value: 0.1060209
+      inSlope: -0.4168339
+      outSlope: -0.4168339
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: -0.1500599
+      outSlope: -0.1500599
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114995632279366666
+MonoBehaviour:
+  m_GameObject: {fileID: 1085401478529291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f7aecca57f64694fb96b6d75bfcfa95, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  min: 0.9
+  max: 1.1
+  animate: 1
+--- !u!1 &1926138767759478
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4671110900805990}
+  - component: {fileID: 33102221212110637}
+  - component: {fileID: 23749333294187923}
+  - component: {fileID: 64898548749517472}
+  m_Layer: 0
+  m_Name: Circle
+  m_TagString: kill
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4671110900805990
+Transform:
+  m_GameObject: {fileID: 1926138767759478}
+  m_LocalRotation: {x: -4.32978E-17, y: 0.7071067, z: 0.7071068, w: -4.329781E-17}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4165040391193843}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 89.99998, y: -5.526296E-23, z: 180}
+--- !u!33 &33102221212110637
+MeshFilter:
+  m_GameObject: {fileID: 1926138767759478}
+  m_Mesh: {fileID: 4300000, guid: 60af23ca7af009241b44f67e9d02c7c3, type: 2}
+--- !u!23 &23749333294187923
+MeshRenderer:
+  m_GameObject: {fileID: 1926138767759478}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 6239fdf74f5d638468287c3d6a555754, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &64898548749517472
+MeshCollider:
+  m_GameObject: {fileID: 1926138767759478}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 60af23ca7af009241b44f67e9d02c7c3, type: 2}
+--- !u!1 &1303062493312413
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4312051792384121}
+  - component: {fileID: 33729428598718251}
+  - component: {fileID: 23747930800400499}
+  - component: {fileID: 64217290912299107}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: kill
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4312051792384121
+Transform:
+  m_GameObject: {fileID: 1303062493312413}
+  m_LocalRotation: {x: -4.32978E-17, y: 0.7071067, z: 0.7071068, w: -4.329781E-17}
+  m_LocalPosition: {x: 0, y: 0.189, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4165040391193843}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 89.99998, y: -5.526296E-23, z: 180}
+--- !u!33 &33729428598718251
+MeshFilter:
+  m_GameObject: {fileID: 1303062493312413}
+  m_Mesh: {fileID: 4300000, guid: 9013ebb43c7d5074cabb9e9712104a7d, type: 2}
+--- !u!23 &23747930800400499
+MeshRenderer:
+  m_GameObject: {fileID: 1303062493312413}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 6239fdf74f5d638468287c3d6a555754, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &64217290912299107
+MeshCollider:
+  m_GameObject: {fileID: 1303062493312413}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 9013ebb43c7d5074cabb9e9712104a7d, type: 2}

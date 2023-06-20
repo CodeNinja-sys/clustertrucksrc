@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1764892212494054}
+  m_IsPrefabParent: 1
+--- !u!1 &1764892212494054
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4585348441675038}
+  - component: {fileID: 114883250618833941}
+  m_Layer: 14
+  m_Name: CastleGate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4585348441675038
+Transform:
+  m_GameObject: {fileID: 1764892212494054}
+  m_LocalRotation: {x: -4.32978E-17, y: 0.7071067, z: 0.7071068, w: -4.329781E-17}
+  m_LocalPosition: {x: -8.856633, y: 16.83, z: -180.4644}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_Children:
+  - {fileID: 4849742708444396}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 89.99998, y: -5.526296E-23, z: 180}
+--- !u!114 &114883250618833941
+MonoBehaviour:
+  m_GameObject: {fileID: 1764892212494054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0582db8164fe0a542902f63cf608f26a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  rig: {fileID: 54461895801051034}
+--- !u!1 &1102225930790352
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4849742708444396}
+  - component: {fileID: 33375558905072762}
+  - component: {fileID: 23949507475188207}
+  - component: {fileID: 65455422078188942}
+  - component: {fileID: 54461895801051034}
+  m_Layer: 14
+  m_Name: gate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4849742708444396
+Transform:
+  m_GameObject: {fileID: 1102225930790352}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -7.7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4585348441675038}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33375558905072762
+MeshFilter:
+  m_GameObject: {fileID: 1102225930790352}
+  m_Mesh: {fileID: 4300000, guid: 1937d1c0cfc24a9468fd478999c4613f, type: 2}
+--- !u!23 &23949507475188207
+MeshRenderer:
+  m_GameObject: {fileID: 1102225930790352}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 18794128aed057546b208f8847e30864, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &65455422078188942
+BoxCollider:
+  m_GameObject: {fileID: 1102225930790352}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 31.38192, y: 1.186181, z: 45.09613}
+  m_Center: {x: 7.915728E-17, y: -0.0005002022, z: -0.6463691}
+--- !u!54 &54461895801051034
+Rigidbody:
+  m_GameObject: {fileID: 1102225930790352}
+  serializedVersion: 2
+  m_Mass: 1000
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 122
+  m_CollisionDetection: 0

@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1275064036022786}
+  m_IsPrefabParent: 1
+--- !u!1 &1275064036022786
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4135105094473207}
+  - component: {fileID: 33874275851001228}
+  - component: {fileID: 23100005510243078}
+  - component: {fileID: 65398224424743335}
+  - component: {fileID: 114450535397485228}
+  - component: {fileID: 114963582571665848}
+  - component: {fileID: 114404471332486518}
+  m_Layer: 2
+  m_Name: CastleTower
+  m_TagString: kill
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4135105094473207
+Transform:
+  m_GameObject: {fileID: 1275064036022786}
+  m_LocalRotation: {x: -3.246518E-07, y: -0.7071068, z: -0.7071068, w: 3.352761E-07}
+  m_LocalPosition: {x: -44.4, y: 35.6, z: -64.1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 5.347295E-05, z: 180}
+--- !u!33 &33874275851001228
+MeshFilter:
+  m_GameObject: {fileID: 1275064036022786}
+  m_Mesh: {fileID: 4300000, guid: b4fc37feead56de4dbddec7c16764f5e, type: 2}
+--- !u!23 &23100005510243078
+MeshRenderer:
+  m_GameObject: {fileID: 1275064036022786}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 18794128aed057546b208f8847e30864, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &65398224424743335
+BoxCollider:
+  m_GameObject: {fileID: 1275064036022786}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 29.6811, y: 29.68114, z: 813.9056}
+  m_Center: {x: 4.029717E-13, y: 1.975818E-05, z: -331.4871}
+--- !u!114 &114450535397485228
+MonoBehaviour:
+  m_GameObject: {fileID: 1275064036022786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcaddd61fc31979489cc6b7fa716df38, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114963582571665848
+MonoBehaviour:
+  m_GameObject: {fileID: 1275064036022786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c37c46c8be01140a179a658b1ed5b7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  roadPoint: 0
+  LEGEND: 73203d20737472696e672c2066203d20666c6f61742c2062203d20626f6f6c0a536c696465723a202873206e616d652c66206d696e2c66206d61782c200a662076616c75652c6220636c616d702920426f6f6c3a202873206e616d652c206220737461727456616c7565292044726f703a202873206e616d652c20735b5d2076616c7565732c692076616c756529
+  initParameters:
+  - TYPE: 1
+    Arguments:
+    - Killable
+    - false
+  - TYPE: 4
+    Arguments:
+    - Name
+    - 
+--- !u!114 &114404471332486518
+MonoBehaviour:
+  m_GameObject: {fileID: 1275064036022786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f2850b91d4350347b77012528c2fe6c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

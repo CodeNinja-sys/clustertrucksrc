@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1214515765517312}
+  m_IsPrefabParent: 1
+--- !u!1 &1214515765517312
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4719898738141522}
+  - component: {fileID: 33114916702928623}
+  - component: {fileID: 23812005279485678}
+  - component: {fileID: 64159078626928953}
+  m_Layer: 0
+  m_Name: HillPlaneEdge1
+  m_TagString: kill
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4719898738141522
+Transform:
+  m_GameObject: {fileID: 1214515765517312}
+  m_LocalRotation: {x: -0.6952452, y: 3.054738E-07, z: 3.280993E-07, w: 0.7187727}
+  m_LocalPosition: {x: -315.6538, y: 42.01772, z: -616.8167}
+  m_LocalScale: {x: 0.7945805, y: 0.7945804, z: 0.7945803}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -88.09351, y: -5.129986E-05, z: -2.687129E-06}
+--- !u!33 &33114916702928623
+MeshFilter:
+  m_GameObject: {fileID: 1214515765517312}
+  m_Mesh: {fileID: 4300000, guid: 02304c0689fdaea43be0640c793dec74, type: 2}
+--- !u!23 &23812005279485678
+MeshRenderer:
+  m_GameObject: {fileID: 1214515765517312}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 7474bba0cb87efc4dbbd09f64854331e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &64159078626928953
+MeshCollider:
+  m_GameObject: {fileID: 1214515765517312}
+  m_Material: {fileID: 13400000, guid: de295ad6c349dad44b86867fb7abed4c, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 02304c0689fdaea43be0640c793dec74, type: 2}

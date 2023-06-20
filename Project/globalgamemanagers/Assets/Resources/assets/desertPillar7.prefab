@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1256746645433915}
+  m_IsPrefabParent: 1
+--- !u!1 &1256746645433915
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4619136741849471}
+  - component: {fileID: 33858466573334466}
+  - component: {fileID: 23264442743508276}
+  - component: {fileID: 64516258695458896}
+  - component: {fileID: 114002599957290090}
+  m_Layer: 0
+  m_Name: desertPillar7
+  m_TagString: kill
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4619136741849471
+Transform:
+  m_GameObject: {fileID: 1256746645433915}
+  m_LocalRotation: {x: 0.1601139, y: 0.5471314, z: -0.1075518, w: 0.8145204}
+  m_LocalPosition: {x: -9.22, y: -5.34, z: -181.32}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 22.24222, y: -67.78026, z: -6.451149E-05}
+--- !u!33 &33858466573334466
+MeshFilter:
+  m_GameObject: {fileID: 1256746645433915}
+  m_Mesh: {fileID: 4300000, guid: ae03aba503687ab42a212925d518ca53, type: 2}
+--- !u!23 &23264442743508276
+MeshRenderer:
+  m_GameObject: {fileID: 1256746645433915}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 8844ffca95285d94aaf6241f95b341f7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &64516258695458896
+MeshCollider:
+  m_GameObject: {fileID: 1256746645433915}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: ae03aba503687ab42a212925d518ca53, type: 2}
+--- !u!114 &114002599957290090
+MonoBehaviour:
+  m_GameObject: {fileID: 1256746645433915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4834921f7285854c8f70df6aca43614, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  path: props
+  info: []
+  info2: []
+  vectors: []
+  transforms: []

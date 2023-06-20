@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1367413258763450}
+  m_IsPrefabParent: 1
+--- !u!1 &1367413258763450
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4023256533336475}
+  - component: {fileID: 33331392374967282}
+  - component: {fileID: 23327736700379818}
+  - component: {fileID: 64930620827959867}
+  m_Layer: 2
+  m_Name: snow2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4023256533336475
+Transform:
+  m_GameObject: {fileID: 1367413258763450}
+  m_LocalRotation: {x: -0.07541278, y: 0.7030739, z: 0.703074, w: 0.07541277}
+  m_LocalPosition: {x: -29.90627, y: 3.509955, z: -108.9782}
+  m_LocalScale: {x: 2.177069, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 89.99999, y: -12.24445, z: 180}
+--- !u!33 &33331392374967282
+MeshFilter:
+  m_GameObject: {fileID: 1367413258763450}
+  m_Mesh: {fileID: 4300000, guid: 76ae0b7c88eacea44bf77b62c0f24315, type: 2}
+--- !u!23 &23327736700379818
+MeshRenderer:
+  m_GameObject: {fileID: 1367413258763450}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: dda34fbf6a5e10d43aaf2d20e105784a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &64930620827959867
+MeshCollider:
+  m_GameObject: {fileID: 1367413258763450}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 76ae0b7c88eacea44bf77b62c0f24315, type: 2}
